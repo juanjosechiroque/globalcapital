@@ -1,0 +1,1136 @@
+@font-face {
+  font-family: 'iconos';
+  src: url("../fonts/icomoon/icomoon.eot");
+  src: url("../fonts/icomoon/icomoon.eot?#iefix") format('embedded-opentype'), 
+    url("../fonts/icomoon/icomoon.ttf") format('truetype'), 
+    url("../fonts/icomoon/icomoon.woff") format('woff'), 
+    url("../fonts/icomoon/icomoon.svg#icomoon") format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'square';  
+  src: url("../fonts/square/tt0248m_.ttf") format('truetype'); 
+  font-weight: normal;  
+}
+
+@font-face {
+  font-family: 'square';  
+  src: url("../fonts/square/tt0249m_.ttf") format('truetype'); 
+  font-weight: bold;  
+}
+
+body {
+  font-family: "square", sans-serif;
+  font-size: 16px;  
+}
+
+.creative {
+  margin: 50px 0;
+  text-align: center;  
+}
+
+.creative__header {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 20px 0;
+  text-shadow: 0 1px #8691A3;
+}
+
+.creative__image {
+  margin-top: 30px;
+}
+
+.creative__icon {
+  width: 50px;
+}
+
+.creative__list {
+  margin: 30px; 
+}
+
+.creative__description {
+  margin: 30px 0;
+  text-align: justify;
+}
+
+.cta {
+  background-image: url("../img/cta-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 50vh;
+  margin-top: 130px;
+  position: relative;
+  z-index: -1;
+}
+
+.cta__description {
+  bottom: 0; 
+  font-size: 28px;  
+  height: 50%;
+  margin: auto;
+  left: 0;
+  position: absolute;  
+  right: 0;  
+  text-align: center;
+  top: 0;  
+  width: 220px;    
+  line-height: 1.5;
+}
+
+.decision {
+  margin: 50px 30px;
+  text-align: center;
+}
+
+.decision__header {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.decision__detail {
+  line-height: 30px;
+  margin: 30px 20px 60px 20px;  
+  text-align: justify;
+}
+
+.decision__form {
+  display: inline-block;
+  text-align: center;  
+  width: 90%;
+}
+
+.decision__image {  
+  width: 240px;
+}
+
+
+.entrepreneur {
+  margin: 50px 30px;
+  text-align: center;  
+}
+
+.entrepreneur__header {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase; 
+}
+
+.entrepreneur__description {
+  margin-top: 30px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.entrepreneur__image {
+  margin-top: 30px;
+}
+
+.founder {
+  margin: 50px 30px;
+  text-align: center;  
+}
+
+.founder {
+  margin: 50px 30px;
+  text-align: center;  
+}
+
+.founder__header {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase; 
+  padding: 20px 0;
+  background: #F2F2F2;
+  margin-bottom: 10px;
+}
+
+.founder__subtitle {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.founder__image {
+  margin: 0 auto;
+  width: 350px;
+}
+
+.founder__description {
+  margin: 30px 0;
+  text-align: justify;
+}
+
+.founderDesktop {
+  display: none;
+}
+
+.gnp {
+  margin: 50px 30px;
+  text-align: center;
+}
+
+.gnp__title {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.gnp__items {
+  margin-top: 30px; 
+}
+
+.gnp__item {
+  margin-bottom: 30px;
+  width: 250px;
+}
+
+.gnp__image {  
+  width: 250px;
+}
+
+.gnpDesktop {
+  display: none;
+}
+
+.goals {
+  margin: 50px 30px;
+  text-align: center;
+}
+
+.goals__header {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.goals__images {
+  margin-top: 30px;
+}
+
+.goals__imageItem {
+  width: 150px;
+}
+
+.header {
+  background: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.header__link {
+  display: inline-block;
+  margin: 24px;
+}
+
+.header__logo {  
+  width: 300px;
+}
+
+.mentoring {
+  margin: 50px 30px;
+  text-align: center;
+}
+
+.mentoring__description {
+  margin-top: 30px;
+  text-align: justify;  
+}
+
+.mentoring__header {
+  margin: 0 auto;
+  text-align: center;
+  width: 200px;
+}
+
+.mentoring__image {
+  margin-top: 30px;
+}
+
+.methodology {
+  margin: 50px 30px;
+  text-align: center;
+}
+
+.methodology__header {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.methodology__list {
+  margin-top: 30px;
+}
+
+.methodology__item {
+  width:300px;
+}
+
+.mentoringDesktop {
+  display: none;
+}
+
+.partners {
+  margin: 50px 30px;
+  text-align: center;
+}
+
+.partners__header {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.partners__item {
+  display: inline-block;
+  margin: 60px 0;  
+}
+
+.partners__name {
+  font-size: 18px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.partners__image {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.program {
+  background: #7F7F7F;
+  padding: 30px;
+  color: #FFFFFF;
+}
+
+.program___description {   
+  text-align: justify;
+}
+
+.strategy {
+  margin: 50px 30px;
+  text-align: center;  
+}
+
+.strategy__header {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.strategy__item {
+  margin: 30px 0 ;
+}
+
+.strategy__description {
+  text-align: justify;
+  padding: 0 30px;
+  margin: 40px 0 30px 0;  
+}
+
+.training {
+  margin: 50px 30px;
+  text-align: center;
+}
+
+.training__header {
+  color: #7F7F7F;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30x;
+  text-transform: uppercase;
+}
+
+.training__item {
+  margin: 30px 0;
+}
+
+.training__images {
+  margin-top: 20px;
+}
+
+.training__image {  
+  width: 150px;
+  display: inline-block;
+}
+
+.training__description {
+  margin: 30px 0;
+  padding: 0 30px;  
+  text-align: justify;
+}
+
+.trainingDesktop {
+  display: none;
+}
+
+.we {
+  margin: 50px 30px;
+}
+
+.we__description {
+  text-align: justify;
+}
+
+.we__images {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.we__image {
+  margin: 0 5px;
+  width: 160px;
+}
+
+.weDesktop {
+  display: none;
+}
+
+/* Colors */
+
+.bg-primary {
+  background: #19A1DF;
+}
+
+.text-primary {
+  color: #19A1DF;
+}
+
+.text-secondary {
+  color: #9EC64C;
+}
+
+.text-blue {
+  color: #466AB6;
+}
+
+.text-gray {
+  color: #8691A3;
+}
+
+.bg-secondary {
+  background: #F2F2F2;
+}
+
+/* Utilities */
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-italic {
+  font-style: italic;
+}
+
+.img-fluid {
+  width: 100%;
+}
+
+.whatsapp__button {
+  background-color:#25d366;	
+  border-radius: 50%;	
+  color:#FFF;  
+  font-size:30px;  
+  text-decoration: none;  
+  text-align: center;  
+  position:fixed;
+  bottom:40px;
+  right:40px;  
+  width:60px;
+  height:60px;	
+  z-index:100;
+}
+
+.icon {
+  color: #ffffff;
+  font-family: "iconos";
+  font-size: 32px; 
+}
+
+.icon--whatsapp {  
+  display: inline-block;  
+  margin-top: 11px;
+  margin-left: 1px;
+}
+
+.icon--whatsapp:before {  
+  content: "\ea93";  
+}
+
+
+@media (min-width: 600px) {
+  
+  .we__description {
+    font-size: 20px;
+  }
+  
+  .we__image {
+    width: 45%;
+  }
+  
+  .mentoring__header {
+    width: 250px;
+  }
+  
+  .mentoring__image {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 400px;    
+  }
+  
+  .mentoring__description {
+    font-size: 20px;
+  }
+  
+  .goals__imageItem {
+    width: 250px;
+  }
+  
+  .training__description {
+    font-size: 22px;
+  }
+  
+  .program {
+    padding: 50px;
+  }
+  
+  .program___description {
+    font-size: 22px;
+  }
+  
+  .strategy__description {    
+    margin-top: 30px;
+    font-size: 22px;
+    text-align: center;
+  }
+  
+  .entrepreneur__image {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .entrepreneur__description { 
+    margin: 0 50px;
+  }
+  
+  .founder__description {
+    font-size: 22px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+}
+
+@media (min-width: 780px) {
+  
+  .cta__description {
+    font-size: 30px;
+    line-height: 1.3;
+  }
+  
+  .we__description {
+    font-size: 22px;    
+    line-height: 1.3;
+    width: 700px;
+    margin: 0 auto;    
+  }
+  
+  .we__image {
+    width: 40%;
+  }
+  
+  .mentoring__description {
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 700px;
+    font-size: 22px;
+  }
+  
+  .methodology__list {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 800px;
+  }
+  
+  .methodology__header {
+    font-size: 32px;
+  }  
+  
+  .training__item {
+    width: 40%;
+    display: inline-block;
+  }
+  
+  .strategy__item {
+    width: 45%;    
+    display: inline-block;
+  }
+  
+  .strategy__header {
+    font-size: 32px;
+  }
+  
+  .strategy__description {
+    font-size: 24px;
+  }
+  
+  .creative__item {
+    width: 40%;
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  
+  .creative__header {
+    font-size: 32px;
+  }
+  
+  .partners__item {    
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .entrepreneur__header {
+    font-size: 32px;
+  }
+  
+  .entrepreneur__description {
+    font-size: 24px;
+    margin-top: 50px;
+  }
+  
+  .entrepreneur__image {    
+    margin-top: 50px;
+  }
+    
+  .founder__header {
+    font-size: 32px;
+  }
+  
+}
+
+@media (min-width: 1000px) {
+  
+  .cta {
+    height: 70vh;    
+  }
+  
+  .cta__description {
+    width: 30%;
+    font-size: 35px;
+    line-height: 1.6;
+  }
+  
+  .creative__header {
+    margin: 0 auto;    
+    width: 1000px;
+    padding: 20px 0;
+    font-size: 45px;
+  }
+      
+  .creative__image {
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .creative__list {    
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  
+  .creative__icon {
+    width: 40px;
+  }
+  
+  .decision__description, 
+  .decision__form {
+    margin: 60px 20px 0 20px;
+    vertical-align: top;
+    width: 45%;    
+  }
+  
+  .decision__description {
+    display: inline-block;
+    width: 40%;
+  }
+  
+  .decision__form {
+    width: 40%;
+  }
+  
+  .decision__detail {
+    margin-left: 0;
+  }
+  
+  .decision__header {
+    text-align: center;
+    font-size: 40px;
+    margin: 0 auto;
+    width: 95%;
+  }
+  
+  .decision__detail {
+    font-size: 26px;
+    line-height: 1.6;
+  }
+    
+  .entrepreneur__description, 
+  .entrepreneur__image {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+  }
+  
+  .entrepreneur__subtitle {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+    
+  .entrepreneur__header {
+    margin-top: 80px;
+    width: 300px;    
+    font-size: 40px;
+  }
+  
+  .entrepreneur__image {    
+    margin-top: 50px;
+  }
+      
+  .founder {
+    display: none;
+  }
+  
+  .founderDesktop {
+    display: block;
+    text-align: center;
+  }
+  
+  .founderDesktop__left,
+  .founderDesktop__right {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .founderDesktop__left {
+    width: 60%;
+  }
+  
+  .founderDesktop__right {
+    width: 35%;
+  }
+  
+  .founderDesktop__textLeft {
+    padding: 20px;
+    font-size: 20px;    
+  }
+  
+  .founderDesktop__textRight {  
+    margin: 20px 0;
+    font-size: 30px;
+  }
+    
+  .gnp {
+    display: none;
+  }
+  
+  .gnpDesktop {
+    display: block;
+    margin: 0 auto;
+    width: 98%;
+    text-align: center;
+  }
+  
+  .gnpDesktop__left,
+  .gnpDesktop__right {
+    display: inline-block;    
+    vertical-align: middle;
+  } 
+  
+  .gnpDesktop__left {    
+    width: 55%;
+  }
+  
+  .gnpDesktop__right {    
+    width: 40%;
+  }
+    
+  .gnpDesktop__item {
+    display: inline-block;
+    width: 45%;
+  }
+  
+  .gnpDesktop__title {
+    margin: 30px 0;
+    font-size: 35px;
+  }  
+  
+  .goals__header {
+    font-size: 32px;
+  }
+  
+  .goals__images {
+    margin-top: 50px;
+  }
+  
+  .mentoring {
+    display: none;
+  }
+  
+  .mentoringDesktop {
+    display: block;
+  }
+  
+  .mentoringDesktop {
+    background-image: url("../img/mentoring02_2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 90vh;
+    margin-top: 50px;
+    position: relative;
+    z-index: -1;
+  }
+  
+  .mentoringDesktop__title {
+    width: 40%;
+    position: absolute;
+    right: 50px;
+    top: 30%;
+    color: white;
+    text-align: center;
+    font-size: 38px;    
+  }
+  
+  .mentoringDesktop__description {
+    position: absolute;
+    width: 40%;
+    right: 50px;
+    bottom: 50px;
+    color: white;
+    text-align: justify;
+    font-size: 24px;
+    line-height: 1.5;
+    
+  }
+  
+  .methodology__header,
+  .methodology__list {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .methodology__header {
+    width: 30%;
+    font-size: 50px;
+  }
+  
+  .methodology__list {
+    width: 60%;
+  }
+  
+  .methodology__item {
+    width: 35%;
+  }  
+  
+  .partners__header {
+    font-size: 50px;
+  }
+    
+  .partners__name  {
+    margin-top: 20px;
+    font-size: 25px;
+  }
+  
+  .strategy__description {
+    display: none;
+  }
+  
+  .strategy__header,
+  .strategy__list {
+    display: inline-block;    
+    width: 48%;    
+    vertical-align: middle;
+  }    
+  
+  .strategy__header {    
+    text-align: left;
+    font-size: 52px;  
+  }
+   
+  .strategy__item {            
+    margin: 10px 0 10px 50px;    
+    display: block;
+  }
+  
+  .strategy__title {
+    margin-left: 50px;
+    padding: 20px 30px;
+  }
+  
+  .strategy__image {
+    width: 500px;
+  }
+    
+  .training {
+    display: none;
+  }
+  
+  .program {
+    display: none;
+  }
+  
+  .trainingDesktop {    
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .trainingDesktop__top {    
+    margin: 0 auto;
+    text-align: center;
+    width: 95%;
+    font-size: 0;
+  }
+  
+  .trainingDesktop__left,
+  .trainingDesktop__center,
+  .trainingDesktop__right {
+    display: inline-block; 
+    vertical-align: middle;
+  }
+  
+  .trainingDesktop__left,  
+  .trainingDesktop__right {    
+    width: 20%;
+  }
+  
+  .trainingDesktop__center {    
+    width: 60%;
+  }
+  
+  .trainingDesktop__bottom {
+    margin: 0 auto;
+    width: 95%;    
+  }
+  
+  .trainingDeskto__title {
+    font-size: 52px;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  
+  .trainingDesktop__description {
+    color: white;
+    padding: 30px;
+    font-size: 28px;
+  }
+  
+  .trainingDeskto__item {
+    display: inline-block;
+    width: 48%;
+    font-size: 24px;
+  }
+  
+  .trainingDeskto__text {
+    margin: 20px 0;
+    font-size: 30px;
+  }
+    
+  .trainingDeskto__image {
+    width: 90px;
+  }  
+  
+  .trainingDeskto__content {
+    text-align: justify;
+    margin: 10px;
+    padding: 0 10px;
+  }  
+  
+  .we {
+    display: none;
+  }
+  
+  .we__image {
+    margin: 0 50px;
+    width: 320px;
+  }
+  
+  .weDesktop {
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+    margin-top: 40px;    
+  }
+  
+  .weDesktop__imagesContainer, 
+  .weDesktop__content {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .weDesktop__imagesContainer {   
+    font-size: 0;
+    overflow: hidden;
+    width: 55%;
+    text-align: center;
+  }
+  
+  .weDesktop__content {
+    width: 40%;
+  }
+  
+  .weDesktop__imageItemLeft,
+  .weDesktop__imageItemRight {
+    display: inline-block;
+    vertical-align: middle;    
+  }
+  
+  .weDesktop__imageItemLeft { 
+    width: 55%;
+  }
+  
+  .weDesktop__imageItemRight {  
+    width: 33%;
+    margin: 0 10px;    
+  }
+  
+  .weDesktop__imageLeft {
+    width: 100%;
+  }
+  
+  .weDesktop__imageRight {    
+    hheight: 300px;
+    margin: 5px 0;
+    width: 88%;
+  }
+  
+  .weDesktop__description {
+    margin-top: 40px;
+    font-size: 25px;
+    line-height: 2;
+    text-align: justify;
+  }
+  
+  .weDesktop__logo {
+    margin: 0 auto;
+    width: 80%;
+  }
+  
+  .weDesktop__imagelogo {
+    text-align: center;
+    width: 100%;
+  }
+  
+}
+
+@media (min-width: 1200px) {
+  
+  .cta__description {
+    font-size: 40px;
+    line-height: 1.5;
+    width: 60%;
+  }
+  
+  .goals__header {
+    font-size: 38px;
+  }
+  
+  .mentoringDesktop__title {    
+    top: 35%;
+    font-size: 50px;
+  }
+  
+  .program {
+    padding: 70px;
+    line-height: 1.5;
+  }
+  
+  .program___description {
+    font-size: 30px;
+  }
+  
+  .training__images,
+  .training__item {    
+    width: 280px;
+  }
+  
+  .founderDesktop__textLeft {
+    padding: 20px;  
+  }
+  
+  .founderDesktop__textRight {  
+    margin: 40px 0;
+  }
+  
+  .entrepreneur__subtitle {
+    font-size: 35px;
+  }
+    
+  .entrepreneur__header {
+    width: 360px;    
+    font-size: 50px;
+  }
+  
+}
+
+@media (min-width: 1300px) {
+  
+  .header {
+    display: none;
+  }
+  
+  .cta {
+    height: 100vh;
+    margin-top: 0;
+  }
+  
+  .cta__description {
+    font-size: 48px;
+    line-height: 1.7;
+    width: 50%;
+  }
+  
+  .creative__item {
+    width: 40%;
+    font-size: 20px;
+  }
+  
+  .creative__header {
+    font-size: 55px;
+  }
+  
+  .strategy__title {
+    font-size: 55px;
+    padding: 20px 30px;
+  }
+  
+  .gnpDesktop__title {    
+    font-size: 46px;
+  }
+  
+  .partners__name  {    
+    font-size: 30px;
+  }
+  
+  .founderDesktop__textLeft {
+    padding: 20px;
+    font-size: 24px;    
+  }
+  
+  .founderDesktop__textRight {  
+    margin: 80px 0;
+    font-size: 35px;
+  }
+  
+  .decision__header {
+    font-size: 50px;
+  }
+  
+}
